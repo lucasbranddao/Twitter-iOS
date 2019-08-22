@@ -1,0 +1,11 @@
+framework module DMNetwork {
+  umbrella header "DMNetwork.h"
+
+  export *
+  module * { export * }
+}
+
+module DMNetwork.Swift {
+    header "DMNetwork-Swift.h"
+    requires objc
+}
